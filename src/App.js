@@ -10,8 +10,8 @@ function App() {
     if (value === '=') {
       try {
         // Evaluasi ekspresi matematika
-        // setResult(eval(input).toString());
-        setResult('Miss U :) mandaa');
+        setResult(eval(input).toString());
+        // setResult('Miss U :) mandaa');
       } catch (error) {
         setResult('Error');
       }
